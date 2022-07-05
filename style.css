@@ -30,4 +30,13 @@ section{
 .top-banner{
               background-image: url(images/shapes/Frame\ 57.jpg);
               background-repeat: no-repeat;
+              background-position: left;
+}
+.myself{
+              background-image: url(images/shapes/Frame\ 56.jpg);
+              background-repeat: no-repeat;
+              
+}
+.recipies{
+              text-align: center;
 }
