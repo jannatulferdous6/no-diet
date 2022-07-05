@@ -1,42 +1,98 @@
 body {
-              font-family: 'Gulzar', serif;
               font-family: 'Poppins', sans-serif;
               margin: 0;
 }
-h1 {
+
+body p {
+              font-size: small;
+}
+
+.header {
               font-size: 40px;
 }
-.pink-color {
-              color: purple;
+
+.org {
+              color: orange;
 }
-.half-width{
-              width: 70%;
-              padding-left: 2%;
+
+.link-button {
+              text-decoration: none;
+              background-image: linear-gradient(green, lightgreen);
+              padding: 10px 30px;
+              color: teal;
+              font-weight: 600;
+              border-radius: 5px;
 }
-.half-width img{
+
+.flex-contain {
+              display: flex;
+              margin-bottom: 150px;
+              margin-top: 20px;
+}
+
+.half-width {
+              width: 50%;
+              padding: 4%;
+}
+
+.half-width img {
               width: 90%;
 }
-section{
-              display: flex;
-}
-.link-button{
-              text-decoration: none;
-              background-image: linear-gradient(purple, pink);
-              padding: 10px 10px;
-              color: purple;
-              font-weight: 600;
-              border-radius: 30%;
-}
-.top-banner{
-              background-image: url(images/shapes/Frame\ 57.jpg);
+
+.middle-banner {
+              background-image: url(images/shapes/7.png);
               background-repeat: no-repeat;
-              background-position: left;
 }
-.myself{
-              background-image: url(images/shapes/Frame\ 56.jpg);
-              background-repeat: no-repeat;
-              
+
+.about-me {
+              padding-top: 80px;
 }
-#recipies{
+
+.about-me p {
+              text-align: left;
+}
+
+.bottom-head {
               text-align: center;
+}
+
+.low {
+              width: 50%;
+              margin-left: 5%;
+              margin-right: 5%;
+              border-radius: 10px;
+              box-shadow: 10px 10px 20px gray;
+}
+
+.social-info {
+              text-align: center;
+}
+
+.foot {
+              height: 150px;
+              text-align: center;
+              background-color: blueviolet;
+              margin: 0;
+}
+
+.foot p {
+              color: white;
+}
+
+#footid {
+              color: gray;
+}
+
+.socialdiv {
+              width: 100%;
+              padding-left: 5%;
+}
+
+.lowsocial {
+              width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+              padding: 20px;
+              border-radius: 10px;
+              box-shadow: 10px 10px 30px gray;
 }
