@@ -1,0 +1,33 @@
+body {
+              font-family: 'Gulzar', serif;
+              font-family: 'Poppins', sans-serif;
+              margin: 0;
+}
+h1 {
+              font-size: 40px;
+}
+.pink-color {
+              color: purple;
+}
+.half-width{
+              width: 70%;
+              padding-left: 2%;
+}
+.half-width img{
+              width: 90%;
+}
+section{
+              display: flex;
+}
+.link-button{
+              text-decoration: none;
+              background-image: linear-gradient(purple, pink);
+              padding: 10px 10px;
+              color: purple;
+              font-weight: 600;
+              border-radius: 30%;
+}
+.top-banner{
+              background-image: url(images/shapes/Frame\ 57.jpg);
+              background-repeat: no-repeat;
+}
